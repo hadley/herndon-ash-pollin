@@ -3,7 +3,7 @@ This repository contains a rewrite of the R code used by Thomas Herndon, Michael
 
 (I have no affiliation with the authors, I just thought it would be fun to play around with the data)
 
-# Changes
+### Changes
 
 * Greece had commas in the RGDP column for 1991-2006. Previouly `as.numeric` was used to get rid of them which just turned them into NAs
 
